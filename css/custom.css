@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'modern';
+    src: url('/css/fonts/modernno216ef-heavy-webfont.woff2') format('woff2'),
+         url('/css/fonts/modernno216ef-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height:100%;
+    margin: 0;
+}
+
+body{
+  height:100%;
+  margin: 0;
+  background-image: url(/img/bk-img.svg);
+  background-size: cover;
+}
+
+
+
+.content {
+  min-height: 100%;
+}
+
+.inside {
+  padding-bottom: 50px;
+}
+
+.contact {
+  height: 50px;
+  margin-top: -50px;
+}
+.contact p {
+  font-size: 1rem;
+  color: white;
+}
+.contact a {
+  color: #b2e7ed;
+}
+
+.welcome {
+  padding-top: 30vh;
+  color: white;
+}
+
+@media
+  only screen and (min-width: 800px) {
+    .welcome h1 {
+      font-size: 5rem;
+      font-family: 'modern';
+    }
+
+    .welcome p {
+      padding-top: 1rem;
+      font-size:2.3rem;
+    }
+}
+
+@media
+  only screen and (min-width: 520px) and (max-width: 799px) {
+    .welcome h1 {
+      font-size: 4rem;
+      font-family: 'modern';
+    }
+    .welcome p {
+      padding-top: 1rem;
+      font-size: 1.85rem;
+    }
+}
+
+@media
+  only screen and (min-width: 380px) and (max-width: 519px) {
+    .welcome h1 {
+      font-size: 3rem;
+      font-family: 'modern';
+    }
+    .welcome p {
+      padding-top: 1rem;
+      font-size: 1.39rem;
+    }
+}
+
+@media
+  only screen and (min-width: 326px) and (max-width: 379px){
+    .welcome h1 {
+      font-size: 2.5rem;
+      font-family: 'modern';
+    }
+    .welcome p {
+      padding-top: 1rem;
+      font-size: 1.1rem;
+    }
+  }
+
+@media
+  only screen and (max-width: 325px){
+    .welcome h1 {
+      font-size: 1rem;
+      font-family: 'modern';
+    }
+    .welcome p {
+      padding-top: 1rem;
+      font-size: 0.5rem;
+    }
+  }
